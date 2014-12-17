@@ -13,6 +13,7 @@ namespace Warrior
         {
             Log = LogManager.GetLogger("BusinessLogger");
             XmlConfigurator.Configure(new FileInfo("..\\..\\App.config"));
+            
         }
 
         
@@ -23,6 +24,7 @@ namespace Warrior
             while (write)
             {
                 Console.WriteLine("They see me runnin', they hatin'");
+                Console.Beep();
                 Thread.Sleep(1000);         
             }
         }
