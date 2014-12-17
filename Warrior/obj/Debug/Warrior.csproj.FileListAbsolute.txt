@@ -1,0 +1,7 @@
+c:\Users\Martynas\documents\visual studio 2012\Projects\Service\Warrior\bin\Debug\Warrior.dll
+c:\Users\Martynas\documents\visual studio 2012\Projects\Service\Warrior\bin\Debug\Warrior.pdb
+c:\Users\Martynas\documents\visual studio 2012\Projects\Service\Warrior\obj\Debug\Warrior.csprojResolveAssemblyReference.cache
+c:\Users\Martynas\documents\visual studio 2012\Projects\Service\Warrior\obj\Debug\Warrior.dll
+c:\Users\Martynas\documents\visual studio 2012\Projects\Service\Warrior\obj\Debug\Warrior.pdb
+c:\Users\Martynas\documents\visual studio 2012\Projects\Service\Warrior\bin\Debug\log4net.dll
+c:\Users\Martynas\documents\visual studio 2012\Projects\Service\Warrior\bin\Debug\log4net.xml

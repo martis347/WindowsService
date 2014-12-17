@@ -1,0 +1,11 @@
+c:\users\martynas\documents\visual studio 2012\Projects\Service\Service\bin\Debug\Service.exe.config
+c:\users\martynas\documents\visual studio 2012\Projects\Service\Service\bin\Debug\Service.exe
+c:\users\martynas\documents\visual studio 2012\Projects\Service\Service\bin\Debug\Service.pdb
+c:\users\martynas\documents\visual studio 2012\Projects\Service\Service\bin\Debug\log4net.dll
+c:\users\martynas\documents\visual studio 2012\Projects\Service\Service\bin\Debug\Topshelf.dll
+c:\users\martynas\documents\visual studio 2012\Projects\Service\Service\bin\Debug\Warrior.dll
+c:\users\martynas\documents\visual studio 2012\Projects\Service\Service\bin\Debug\Warrior.pdb
+c:\users\martynas\documents\visual studio 2012\Projects\Service\Service\bin\Debug\log4net.xml
+c:\users\martynas\documents\visual studio 2012\Projects\Service\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+c:\users\martynas\documents\visual studio 2012\Projects\Service\Service\obj\Debug\Service.exe
+c:\users\martynas\documents\visual studio 2012\Projects\Service\Service\obj\Debug\Service.pdb
