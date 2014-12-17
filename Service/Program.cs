@@ -13,10 +13,10 @@ namespace Service
 {
     public class Program
     {
-        private static ILog Log;
+        private static ILog _log;
         static void Main(string[] args)
         {
-            Log = LogManager.GetLogger("InfrastructureLogger");
+            _log = LogManager.GetLogger("InfrastructureLogger");
             XmlConfigurator.Configure(new FileInfo("..\\..\\App.config"));
             var restartDelay = (int)TimeSpan.FromMinutes(1).TotalMinutes;
 
@@ -27,8 +27,13 @@ namespace Service
                     svc.ConstructUsing(s => new Business());
                     svc.WhenStarted(s => s.Start());
                     svc.WhenStopped(s => s.Stop());
+                    svc.WhenPaused(s => s.Pause());
+                    svc.WhenContinued(s => s.Continue());
+
+
                 });
-                Log.Info("Program is working");
+                _log.Info("Program is working");
+                config.EnablePauseAndContinue();
                 config.SetServiceName("MyService");
                 config.SetDisplayName("My service");
                 config.SetDescription("My service via Topshelf");

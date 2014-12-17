@@ -8,30 +8,52 @@ namespace Warrior
 {
     public class Business
     {
-        private static ILog Log;
+        private static ILog _log;
         public Business()
         {
-            Log = LogManager.GetLogger("BusinessLogger");
+            _log = LogManager.GetLogger("BusinessLogger");
             XmlConfigurator.Configure(new FileInfo("..\\..\\App.config"));
             
         }
 
-        
+        public void Pause()
+        {
+            //for (int i = 0; i < 15; i++)
+            //{
+            //    Console.Beep();
+            //    Thread.Sleep(100);
+            //}
+            _log.Info("Program pause!");
+
+        }
+        public void Continue()
+        {
+            for (var i = 0; i < 15; i++)
+            {
+                Console.Beep();
+                Thread.Sleep(100);
+            }
+            _log.Info("Program continue!");
+
+        }
         private bool write = true;
         public void Start()
         {
-            Log.Info("Program start!");
+            _log.Info("Program start!");
+
             while (write)
             {
                 Console.WriteLine("They see me runnin', they hatin'");
                 Console.Beep();
-                Thread.Sleep(1000);         
+                Thread.Sleep(1000);
             }
         }
         public void Stop()
         {
-            Log.Info("Program stop!");
+            _log.Info("Program stop!");
             write = false;
         }
+
+        
     }
 }
